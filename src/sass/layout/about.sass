@@ -1,0 +1,139 @@
+/* about */
+
+.about
+	padding: 86px 0
+	display: flex
+	justify-content: center
+
+	@include media(876px)
+		padding: 56px 28px
+
+	@include media(700px)
+		padding: 46px 28px
+
+	@include media(520px)
+		padding: 46px 15px
+
+.about__info
+	width: 50%
+	display: flex
+	justify-content: flex-end
+
+	@include media(1080px)
+		display: block
+		padding-left: 60px
+
+	@include media(876px)
+		padding: 0
+
+	@include media(700px)
+		width: 100%
+
+.about__info-content
+	max-width: 480px
+	padding-top: 76px
+	position: relative
+
+	@include media(876px)
+		padding: 0
+
+.about__title
+	margin-top: 35px
+	
+	@include media(700px)
+		margin-top: 25px
+
+	@include media(520px)
+		margin-top: 16px
+
+.about__desc
+	margin-top: 38px
+
+	@include media(700px)
+		margin-top: 28px
+
+	@include media(520px)
+		margin-top: 16px
+
+.about__btn-wrap
+	margin-top: 58px
+
+	@include media(700px)
+		margin-top: 38px
+
+	@include media(520px)
+		margin-top: 20px
+
+.btn--price
+	padding: 16px 50px
+	margin-left: -40px
+
+	@include media(876px)
+		margin-left: 0
+
+	@include media(520px)
+		width: 100%
+		text-align: center
+
+.about__title-side
+	left: 0
+	bottom: 40px
+
+	@include media(520px)
+		bottom: 90px
+
+	@include media(410px)
+		display: none
+
+.about__img-wrap
+	width: 50%
+	background: url(../img/about-img1.jpg), url(../img/about-img2.jpg)
+	background-position: 120px 76px, 222px 0
+	background-repeat: no-repeat
+
+	@include media(1220px)
+		background-position: 80px 66px, 182px 0
+
+	@include media(876px)
+		background: url(../img/about-img1.jpg) no-repeat top right
+	
+	@include media(700px)
+		display: none
+
+.about__logos-wrap
+	margin: 65px 0 0 90px
+
+	@include media(700px)
+		margin: 45px 0 0 0
+
+	@include media(520px)
+		margin-top: 35px
+
+.logos__list
+	display: flex
+	justify-content: flex-start
+
+	@include media(700px)
+		justify-content: center
+
+	@include media(520px)
+		flex-direction: column
+		align-items: center
+
+.logos__item
+	margin-right: 90px
+
+	@include media(700px)
+		margin-right: 50px
+
+	@include media(520px)
+		margin-right: 0
+		margin-bottom: 30px
+
+	&:last-child
+		margin-right: 0
+		margin-bottom: 0
+
+
+
+	

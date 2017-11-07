@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'AvenirNext Bold';
+    src: url('AvenirNext-Bold.woff') format('woff'),
+         url('AvenirNext-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AvenirNext Italic';
+    src: url('AvenirNext-Italic.woff') format('woff'),
+         url('AvenirNext-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AvenirNext Regular';
+    src: url('AvenirNext-Regular.woff') format('woff'),
+         url('AvenirNext-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BodoniSvtyTwoITCTT Bold';
+    src: url('BodoniSvtyTwoITCTT-Bold.woff') format('woff'),
+         url('BodoniSvtyTwoITCTT-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
